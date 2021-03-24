@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	margin: 0px !important;
+    padding: 0px !important;
+    background-color: white !important;
+   
+   /*justify-content: space-between !imporatnt;*/
+}
+.upload-form{
+	margin: 0 auto !important;
+    text-align: center !important;
+}
+@media screen and(max-width: 600px)
+{
+	.upload-form{
+		margin: 0 auto !important;
+		width: 100% !important;
+		}
+	.upload-form .form-group{
+		width: 100% !important;
+	}
+}
